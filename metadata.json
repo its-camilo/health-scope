@@ -1,0 +1,5 @@
+{
+  "name": "Health Scope",
+  "description": "Sube una foto de tu rostro y PDFs médicos para recibir un análisis de salud impulsado por IA, incluyendo una puntuación de salud y predicciones de riesgo de alopecia.",
+  "requestFramePermissions": []
+}
