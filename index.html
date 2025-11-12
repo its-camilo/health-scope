@@ -6,7 +6,7 @@
     <title>Health Scope</title>
     
     <!-- PWA Manifest -->
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="./manifest.json" />
     <meta name="theme-color" content="#3b82f6" />
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -31,13 +31,13 @@
 </head>
 <body class="bg-gray-50 font-sans text-gray-800 dark:bg-gray-900 dark:text-gray-200">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <script type="module" src="./index.tsx"></script>
     <script>
       // Register Service Worker for PWA
       /*
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/service-worker.js')
+          navigator.serviceWorker.register('./service-worker.js')
             .then(registration => {
               console.log('ServiceWorker registration successful with scope: ', registration.scope);
             })
