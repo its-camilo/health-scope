@@ -18,7 +18,7 @@ const BACKEND_URLS: Record<Environment, { url: string; description: string }> = 
 
   // 3. STRAPI CLOUD (Producción)
   'strapi-cloud': {
-    url: 'https://kind-flowers-c85895cbaf.strapiapp.com', // ⬅️ ACTUALIZAR
+    url: 'https://great-apparel-e0b32d9907.strapiapp.com', // ⬅️ ACTUALIZAR
     description: 'Strapi Cloud (Producción)'
   }
 };
