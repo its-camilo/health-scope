@@ -1,7 +1,7 @@
 type Environment = 'local' | 'codespaces' | 'strapi-cloud';
 
 // ⬅️ CAMBIAR SEGÚN ENTORNO ('local', 'codespaces', 'strapi-cloud')
-const ACTIVE_ENVIRONMENT: Environment = 'codespaces';
+const ACTIVE_ENVIRONMENT: Environment = 'strapi-cloud';
 
 const BACKEND_URLS: Record<Environment, { url: string; description: string }> = {
   // 1. DESARROLLO LOCAL
@@ -18,7 +18,7 @@ const BACKEND_URLS: Record<Environment, { url: string; description: string }> = 
 
   // 3. STRAPI CLOUD (Producción)
   'strapi-cloud': {
-    url: 'https://your-project-name.strapiapp.com', // ⬅️ ACTUALIZAR
+    url: 'https://kind-flowers-c85895cbaf.strapiapp.com', // ⬅️ ACTUALIZAR
     description: 'Strapi Cloud (Producción)'
   }
 };
